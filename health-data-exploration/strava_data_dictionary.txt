@@ -1,0 +1,44 @@
+Data Dictionary 
+Format is: column - unit of measure - description/source
+
+Air Power - watts - is the power required to overcome air resistance. This metric is heavily depent on wind speed and direction https://blog.stryd.com/2019/08/16/introducing-air-power/.
+
+Cadence ** - rpm - is the runner's reps per minute. 
+
+Form Power - watts - is essentially "running in place" power. Decreases in your Form Power over time, when running at similar training speeds, is a good indication that you have improved your running economy.https://blog.stryd.com/2016/11/04/run-faster-with-stryd-part-three/
+
+Form Power Ratio (FPR) - calculated - is calculated as the Form Power/total Power. Lower values may indicate greater efficiency, but we do not recommend aiming for a particular FPR. Like most advanced Stryd metrics, it is best to look for the trends and patterns in how your FPR changes with paces, intensities, and fatigue states. https://support.stryd.com/hc/en-us/articles/1500003813021-What-is-Form-Power-Ratio-FPR-
+
+Ground Time - milliseconds -is the amount of time per stride that a runner's foot is touching the ground, in milliseconds. Ground Contact Time has an inverse relationship with metabolic power, meaning a lower Ground Contact Time is typically an indicator of a higher metabolic power (within an individual rather than across different runners). It is best used as a metric to monitor trends, rather than to aim for specific values (i.e. striving to attain a GCT of 165ms) https://support.stryd.com/hc/en-us/articles/360055425073-What-is-Ground-Contact-Time-GCT-.
+
+Leg Spring Stiffness (LSS) - kN/m - is a model of elastic energy in the leg, assuming it acts like a spring. It is the maximum vertical force a person generates in a step divided by the displacement during ground contact time. LSS can be a good monitor of changes to running mechanics over time. To compare runs effectively, conditions must be the same (surface, shoe, approximate pace, etc.). It can also be analyzed within training sessions to discern changes in running mechanics within a run, but it is again important to account for show or surface changes within a session. https://support.stryd.com/hc/en-us/articles/360003397554-What-is-Leg-Spring-Stiffness-LSS-
+
+Power - watts - is a way to measure the output of the work you’re doing when you run. The higher the Watts, the more power you’re generating with every step. The more power your can generate at a lower heart rate or faster pace, the more efficient you are. https://blog.stryd.com/2021/08/04/what-is-running-power/
+
+Vertical Oscillation - centimeters
+
+altitude - ??? - is the recorded distance above sea level.
+
+cadence ** - rmp - is the athlete's reps per minute. Cadence can be monitored for consistency throughout a run and may decrease with the onset of fatigue. The optimal cadence will differ by the individual due to physical characteristics (leg length, weight, etc.) and features of running form (foot strike, arm swing, etc.). It is best monitored for individual-specific trends over time to gain insight into how a runner's training may be impacting their running mechanics. https://support.stryd.com/hc/en-us/articles/360016505033-What-is-Stryd-Cadence-
+
+datafile - the name of the .fit file from which the data originated.
+
+distance - meters - distance traveled.
+
+enhanced_altitude - m - height above sea level. Prefered altitude field as it has more precision than regular altitude.
+
+enhanced_speed - m/s - preferred speed field as it has more precision. 
+
+fractional_cadence - rpm - a field that accounts for the decimal of the cadence field due to precision constratints on that field.
+
+heart_rate - bpm - athlete's heart rate meausured in beats per minute.
+
+position_lat - semicircles - geospatial lattitude
+
+position_long - semicircles - geospatial longitude
+
+speed - nm/s - Athlete's speed i.
+
+timestamp - yyyy-mm-dd hh\:mm:ss - date/time when data was collected.
+
+** for Cadence/cadence these columns are essentially the same. The cadence (with a lower-case c) is more complete than it's upper-cased counterpart.

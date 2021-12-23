@@ -1,4 +1,4 @@
-# masters-projects
+# Data Science Projects
 
 ## Projects from my data science masters degree program.
 
@@ -12,3 +12,15 @@ Instructions for accessing and downloading datasets is contained within notebook
 
 ### Project 2: Workout data analysis
 - Workout trends over time, detecting workout type, power analysis over the course of a workout.
+
+## Data Mining
+1. Itemsets
+2. Patterns and item simularity
+3. Vectors and matrices
+4. Sequence data
+
+
+## TODO
+1. Data manipulation
+2. Math for data science
+3. ML pipelines

@@ -24,3 +24,4 @@ Instructions for accessing and downloading datasets is contained within notebook
 1. Data manipulation
 2. Math for data science
 3. ML pipelines
+4. Comment code more, and use a style guide.
